@@ -12,10 +12,16 @@ th{
 	font-weight: bold;
 	font-size: 406.25%;
 	text-shadow: 0px 3px #ccc,
-				0px 3px 0px rgba(0,0,0,0.1)
+				0px 3px 0px rgba(0,0,0,0.1);
+	text-align:center;
+	margin-top:100px;	
+	display: block;		
 }
 
 .alignFormCadastro{
 margin-top: 20px;
   
 }
+
+
+

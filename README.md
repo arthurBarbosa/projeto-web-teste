@@ -14,8 +14,7 @@ R: Este projeto foi desenvolvido na IDE eclipse, após baixar o projeto realize 
 com o banco de dados, crie um banco chamado produto através do arquivo persistence.xml faça as configurações conforme seu usuário
 e senha. Este projeto esta utilizando um datasource que foi configurado diretamente dentro do arquivo standolone.xml que fica dentro
 da pasta do servidor widfly8.2.0. Voçe pode optar por configurar somente no arquivo persitence.xml setando o restante da configuração 
-que no seu caso irá precisar especificar qual o tipo de conexão , usuário, senha e driver. Abaixo como eu setei as configurações no arquivo standlone.xml
-  
+que no seu caso irá precisar especificar qual o tipo de conexão , usuário, senha e driver. Abaixo como eu setei as configurações no arquivo standlone
   <datasource jndi-name="java:jboss/datasources/Testeweb" pool-name="Testeweb" enabled="true" use-java-context="true">
                     <connection-url>jdbc:MYSQL://localhost:3306/produto</connection-url>
                     <driver>mysql</driver>
